@@ -9,8 +9,9 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   padding: 0 30px 0 30px;
+  margin-top: 10%;
 }
 
 .authed-container {
@@ -69,16 +70,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  /* position: absolute; */
+  flex-direction: row;
   width: 100%;
   bottom: 0;
   left: 0;
   padding-bottom: 45px;
+  margin-top: 20px;
 }
 
 .twitter-logo {
   width: 35px;
   height: 35px;
+  margin-right: 10px;
 }
 
 .footer-text {
@@ -89,7 +93,7 @@
 
 .gif-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1.5rem;
   justify-items: center;
   margin: 0;
@@ -105,8 +109,9 @@
 }
 
 .gif-item img {
-  width: 100%;
-  height: 300px;
+  /* width: 100%; */
+  height: 200px;
+  width: 300px;
   border-radius: 10px;
   object-fit: cover;
 }
